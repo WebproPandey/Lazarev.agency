@@ -1,0 +1,171 @@
+.nvapart2 h4
+{
+    font-size: 1.001vw;
+    font-weight: 500;
+    margin-bottom: 1vw;
+    text-transform: uppercase;
+    
+}
+
+nav h5
+{
+    margin-bottom: .3vw;
+    display: none;
+    overflow: hidden;
+    padding-top: 2px;
+    /* opacity: 0; */
+}
+.headingelem h4
+{
+    font-size: 1.2vw;
+}
+.navpart2 h5 span
+{
+    font-size: 1.001vw;
+    font-weight: 500;
+    transform: translateY(20px);
+    display: inline-block;
+}
+
+.move img
+{
+    height: 1.2vw;
+    display: inline-block;
+    margin-right: 2vw;
+}
+.blurleft
+{
+    background: linear-gradient( transparent, #111111);
+}
+.blurleft
+{
+    background: linear-gradient( transparent, #111111);
+}
+.moving-div .move
+{
+    animation: moveimg 12s linear infinite;
+}
+@keyframes moveimg {
+    0%
+    {
+        transform: translateX(0%);
+    }
+    100%
+    {
+        transform: translateX(-100%);
+    }
+}
+.right-elem::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1%;
+    width: 100%;
+}
+.right-elem:hover 
+{
+   cursor: pointer;
+   border-top: .5 solid #dadada;
+}
+.right-elem:hover::after
+{
+background-color: white;
+}
+.page3
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://assets-global.website-files.com/64a2ab71942e1d57feb6fe39/65f306410543a22950d85603_reel-cover.webp');    background-position: center;
+    background-size: cover;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page3content h4
+
+{
+    transition:  all ease 0.5s;
+}
+.page4section .section-left
+{
+  transition:  all ease 0.5;
+}
+.hovervideo
+{
+    transition: all ease 0.5s ;
+}
+.page5 #Button , .page7content #Button ,.page9pera .page9btn 
+{
+    position: sticky;
+    top: 15%;
+}
+.content
+{
+    transition: border cubic-bezier(0.23, 1, 0.320, 1) 0.2s;
+}
+ .content div>h1, .overlaydiv
+{
+    transition:  all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+.content:hover .overlaydiv
+{
+    transform: translateY(100%);
+}
+.content:hover div>h1
+{
+    padding-left: 1vw;
+}
+.content:hover
+{
+    border-top: 2px solid white;
+}
+
+summary::marker
+{
+    content: '';
+}
+
+.cards .card
+{
+    display: inline-flex;
+}
+.Arrow
+{
+    transition: all ease 0.2s;
+}
+.buttondiv .leftbtn
+{
+    transition:  all ease 0.5s;
+}
+.productbtn
+{
+    z-index: 9;
+    position: relative;
+} 
+.slide
+{
+    z-index: 8;
+}
+.page8 .bigimg
+{
+    background-image: url('https://assets-global.website-files.com/64a2ab71942e1d57feb6fe39/65f3063ee89f8a34b0976d8f_0.webp');
+    background-size: cover;
+    background-position: center;
+    
+}
+.page11right .headingelem h5 ,  .page11right .headingelem h4
+{
+    font-size: 1vw;
+}
+.page11right .headingelem h5
+{
+    color: aliceblue;
+    padding-top: .5vw;
+}
+
+
+
